@@ -1,3 +1,27 @@
 body {
-    background-color:pink;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    background-color: #3CDBC0;
+    margin:0;
 }
+
+.container {
+ 
+    width:500px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+
+.head-section {
+    width:100%;
+    height:100px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+}
+
+.main-content {
+    border:1px solid black;
+}
+
