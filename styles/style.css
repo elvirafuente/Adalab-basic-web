@@ -8,7 +8,7 @@ body {
 .container {
  
     width:100vw;
-    height:500px;
+    height:100vw;
     display: flex;
     flex-direction: column;
     margin:0 auto;
@@ -16,11 +16,11 @@ body {
 
 .head-section {
     width:100%;
-   
     background-color: #fff;
     border: 1px solid lightgrey;
     display: flex;
     flex-direction: column;
+    
 }
 
 .logo {
@@ -41,13 +41,16 @@ body {
 }
 
 .main-content {
-    border:1px solid black;
     flex-grow: 1;
     color:white;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+
+.claim {
+    font-size: 30px;
 }
 
 
