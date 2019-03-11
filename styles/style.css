@@ -7,7 +7,7 @@ body {
 
 .container {
  
-    width:500px;
+    width:100vw;
     height:500px;
     display: flex;
     flex-direction: column;
@@ -16,12 +16,38 @@ body {
 
 .head-section {
     width:100%;
-    height:100px;
+   
     background-color: #fff;
     border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 10px auto;
+}
+
+.menu-list {
+    display:flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 10px;
 }
 
 .main-content {
     border:1px solid black;
+    flex-grow: 1;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
