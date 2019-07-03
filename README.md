@@ -1,2 +1,2 @@
-# f-m1-evaluacion-intermedia-hebebicho
+# Maquetación responsive
 Adalab - Maquetación web hecha con HTML y CSS
